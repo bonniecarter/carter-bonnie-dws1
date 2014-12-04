@@ -25,7 +25,7 @@ body {
 
 /* corners main */
 
-#moduleone, #moduletwo, #modulethree {
+#moduleone, #moduletwo, #modulethree, #photoheader, #photocolumn, #photocredit {
 	border-radius: 25px;
 }
 
