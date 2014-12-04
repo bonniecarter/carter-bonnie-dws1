@@ -20,12 +20,11 @@ body {
 
 #header {
 	background-color: rgba(183,141,113,.2);
-	border-radius: 25px;
 }
 
 /* corners main */
 
-#moduleone, #moduletwo, #modulethree, #photoheader, #photocolumn, #photocredit {
+#moduleone, #moduletwo, #modulethree, #photoheader, #photocolumn, #photocredit, #header {
 	border-radius: 25px;
 }
 
