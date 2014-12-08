@@ -18,7 +18,7 @@ body {
 }
 
 #top, h2, h3 {
-    background-color: rgba(183,141,113,.5);
+    background-color: rgba(183,141,113,.75);
     background-attachment: fixed;
     border-radius: 25px;
     border-style: dashed;
@@ -116,6 +116,13 @@ figcaption.paragraph {
     max-width: 200px;
 }
 
+.imagecolumn {
+    font-size: small;
+    text-align: left;
+    padding-left: 21px;
+    max-width: 200px;
+}
+
 /* align center text */
 
 #nav, h1, h2, h3 {
@@ -156,7 +163,8 @@ p {
 /* footer */
 
 #footer {
-	text-align: center;
+    color: #ff2637;
+    text-align: center;
 }
 
 /* margins */
