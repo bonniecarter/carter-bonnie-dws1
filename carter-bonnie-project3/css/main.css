@@ -20,14 +20,15 @@ body {
 #top, h2, h3 {
     background-color: rgba(183,141,113,.75);
     background-attachment: fixed;
-    border-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
     border-style: dashed;
-
 }
 
 #photocolumn, #photocredit, .mainparagraph , #nav{
     background-image: url(../images/grunge-paper.jpg);
-    border-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
     padding: 20px;
 }
 
@@ -164,4 +165,7 @@ p {
 
 #main body {
 	margin: 1%;
+}
+h1, h2, h3 {
+    font-family: 'Gloria Hallelujah', cursive;
 }
