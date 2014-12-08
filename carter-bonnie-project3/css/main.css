@@ -1,4 +1,4 @@
-/* heading */
+/* Bonnie Carter - Project 3 */
 
 * {
 	font-family: Arial, Verdana, sans-serif;
@@ -8,24 +8,35 @@
 .center {
 	text-align: center;
 }
+
+/* backgrounds */
+
+body {
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#top, h2, h3 {
+    background-color: rgba(183,141,113,.5);
+    background-attachment: fixed;
+    border-radius: 25px;
+    border-style: dashed;
+
+}
+
+#photocolumn, #photocredit, .mainparagraph , #nav{
+    background-image: url(../images/grunge-paper.jpg);
+    border-radius: 25px;
+    padding: 20px;
+}
+
 /* body */
 
 body {
-	background-color: #E2DACB;
 	width:90%;
-	margin: 0 auto;
-}
-
-/* header */
-
-#header {
-	background-color: rgba(183,141,113,.2);
-}
-
-/* corners main */
-
-#moduleone, #moduletwo, #modulethree, #photoheader, #photocolumn, #photocredit, #header {
-	border-radius: 25px;
+	max-width: 780px;
+    margin: 0 auto;
 }
 
 /* navigation */
@@ -57,7 +68,6 @@ a:active {
 
 h1, h2, h3 {
 	color: #64193B;
-	border-radius: 25px;
 }
 
 h3 {
@@ -83,14 +93,27 @@ li {
 
 #photocolumn {
 	width: 48%;
+    height: 500px;
 	float: left;
 }
 
 #photocredit {
-	width: 48%;
+	width: 40%;
+    height: 500px;
 	float: right; 
 	margin-left: 1%;
+    padding: 20px;
 	text-align: left;
+}
+
+#image01 {
+    float: left;
+}
+
+figcaption.paragraph {
+    font-size: small;
+    text-align-last: left;
+    max-width: 200px;
 }
 
 /* align center text */
@@ -102,13 +125,13 @@ li {
 /* Boxes */
 
 h1, h2 {
-	border: 2px solid #912C69;
+	border: 2px dashed #912C69;
 	padding: 10px;
 	line-height: 2em;
 }
 
 h3{
-	border: 2px solid #912C69;
+	border: 2px dashed #912C69;
 	padding: 10px;
 	line-height: 2em;
 }
@@ -121,9 +144,9 @@ h3{
 
 /* featured content (top area) */
 
-#moduleone, #moduletwo, #modulethree, #footer, #photoheader, #photocolumn, #photocredit {
+/* #moduleone, #moduletwo, #modulethree, #footer, #photoheader, #photocolumn, #photocredit {
 	background-color: rgba(183,141,113,.2);
-}
+} */
 
 p {
 	padding-left: 10px;
@@ -138,6 +161,6 @@ p {
 
 /* margins */
 
-#nav, #main body {
+#main body {
 	margin: 1%;
 }
