@@ -87,10 +87,6 @@ li {
 	text-align: center;
 }
 
-#photoheader {
-	
-}
-
 #photocolumn {
 	width: 48%;
     height: 500px;
@@ -151,9 +147,6 @@ h3{
 
 /* featured content (top area) */
 
-/* #moduleone, #moduletwo, #modulethree, #footer, #photoheader, #photocolumn, #photocredit {
-	background-color: rgba(183,141,113,.2);
-} */
 
 p {
 	padding-left: 10px;
@@ -162,8 +155,8 @@ p {
 
 /* footer */
 
-#footer {
-    color: #ff2637;
+#footer, #footer p {
+    color: #ffd4a8;
     text-align: center;
 }
 
