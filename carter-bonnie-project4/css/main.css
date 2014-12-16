@@ -1,0 +1,253 @@
+/* Bonnie Carter - Project 3 */
+
+* {
+	font-family: Arial, Verdana, sans-serif;
+	color: #0B090A;
+}
+
+.center {
+	text-align: center;
+}
+
+/* backgrounds */
+
+body {
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#top, h2, h3 {
+    background-color: rgba(183,141,113,.75);
+    background-attachment: fixed;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-style: dashed;
+}
+
+#photocolumn, .mainparagraph , nav, #formback{
+    background-image: url(../images/grunge-paper.jpg);
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 20px;
+}
+#formback{
+    margin-top: 20px;
+}
+
+/* body */
+
+body {
+	width:90%;
+	max-width: 780px;
+    margin: 0 auto;
+}
+
+/* navigation */
+
+a:link {
+	color: #0B090A;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #0B090A;
+	text-decoration: none;
+}
+a:hover {
+	color: #64193B;
+	text-decoration: underline;
+	background-color: rgba(183,141,113,.2)
+}
+a:active {
+	color: #64193B;
+	text-decoration: none;
+}
+
+/* TEXT COLOR */
+
+h1, h2, h3 {
+	color: #64193B;
+}
+
+h3 {
+	color: #912C69;
+}
+
+/* LIST */
+
+li {
+	display: inline;
+	padding: 0.5em;
+}
+
+/* Photo Section */
+
+#photos {
+	text-align: center;
+}
+
+#photocolumn {
+	width: 48%;
+    height: 500px;
+	float: right;
+}
+
+aside {
+	width: 40%;
+    height: 500px;
+	float: left;
+	margin-left: 1%;
+    padding: 20px;
+	text-align: center;
+    background-color: rgba(183,141,113,.75);
+}
+
+#image01 {
+    float: left;
+}
+
+figcaption.paragraph {
+    font-size: small;
+    text-align-last: left;
+    max-width: 200px;
+}
+
+.imagecolumn {
+    font-size: small;
+    text-align: left;
+    padding-left: 21px;
+    max-width: 200px;
+}
+
+/* align center text */
+
+nav, h1, h2, h3 {
+	text-align: center;
+}
+
+/* Boxes */
+
+h1, h2 {
+	border: 2px dashed #912C69;
+	padding: 10px;
+	line-height: 2em;
+}
+
+h3{
+	border: 2px dashed #912C69;
+	padding: 10px;
+	line-height: 2em;
+}
+
+/* main body module */
+
+#mainbody, #formback {
+	overflow: auto;
+}
+
+/* featured content (top area) */
+
+
+p {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/* footer */
+
+#footer, #footer p {
+    color: #ffd4a8;
+    text-align: center;
+}
+
+/* margins */
+
+#main body {
+	margin: 1%;
+}
+h1, h2, h3, .couponheader {
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+/* coupons */
+
+#coupon {
+    text-align: center;
+    align-content: center;
+    position: relative;
+}
+
+.couponclip {
+    width: 80%;
+    height: 235px;
+    background-image: url(../images/grunge-paper.jpg);
+    text-align: center;
+    margin: auto;
+    border-style: dashed;
+    border: 2px dashed #912C69;
+    margin-bottom: 20px;
+}
+
+.couponheader {
+    font-size: 24pt;
+}
+
+
+/* table section */
+
+#modulefour table {
+    width: 100%;
+    text-align: left;
+    border-spacing: 1px;
+}
+
+#modulefour th, td {
+    padding: 7px 10px 10px 10px;
+}
+
+#modulefour th {
+    letter-spacing: 0.1em;
+    border-bottom: 2px solid #912C69;
+    border-top: 1px solid #912C69;
+    text-align: left;
+    font-size: 125%;
+}
+
+#modulefour tr.even {
+    background-color: rgba(183,141,113,.25);
+}
+
+#modulefour tr:hover {
+    background-color: rgba(183,141,113,.50);
+}
+/* Form */
+
+.label {
+    float: left;
+    text-align: right;
+    margin-right: 15px;
+    width: 100px;
+}
+
+#formback table {
+    width: 100%;
+    text-align: left;
+    border-spacing: 1px;
+    font-size: 75%;
+}
+
+#formback th, td {
+    padding: 7px 10px 10px 10px;
+}
+
+#formback th {
+    letter-spacing: 0.1em;
+}
+
+#formback th:hover {
+    color: #912C69;
+}
+#formback textarea:focus, input:focus {
+    border: 2px solid #912C69;
+}
